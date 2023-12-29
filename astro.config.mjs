@@ -7,5 +7,5 @@ import icon from "astro-icon";
 export default defineConfig({
   integrations: [tailwind()],
   site: "https://mamadjadali.github.io",
-  base: "/Luxury-Architect"
+  base: "/SM"
 });
