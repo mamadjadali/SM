@@ -1,21 +1,41 @@
 ---
-import CheapButton from "../utils/CheapButton.astro";
-import ContactInput from "../utils/ContactInput.astro";
+
 ---
 
 <section class="mb-20">
-	<h2 class="text-title mb-8">keep in touch with us</h2>
-	<form class="grid gap-4 md:grid-cols-2 md:gap-8">
-		<ContactInput id="1" label="name" placeholder="input your name" />
-		<ContactInput id="2" label="company" placeholder="input your company" />
-		<ContactInput id="2" type="email" label="email" placeholder="input your email" />
+	<h2 class="text-title mb-8">keep in touch</h2>
         <div>
-            <span class="block mb-2 opacity-80">services</span>
+            <span class="block mb-2 opacity-80">Address</span>
             <div class="flex items-end gap-4 flex-wrap text-sm">
-                <CheapButton>architecture</CheapButton>
-                <CheapButton>interior</CheapButton>
-                <CheapButton>furnitures</CheapButton>
+                <p class="text-sm opacity-50">
+                    No.5, Soltani Alley, Jordan St, Tehran, Iran.
+                </p>
+            </div>
+            <br/>
+            <span class="block mb-2 opacity-80">Phone</span>
+            <div class="flex items-end gap-4 flex-wrap text-sm">
+                <p class="text-sm opacity-50">
+                    +98912 181 7267
+                </p>
             </div>
         </div>
-	</form>
+        <br/>
+        <br/>
+        <div class="justify-center grid grid-cols-2 md:grid-cols-2 gap-6">
+            <a href="https://www.linkedin.com/in/ahmadreza-sameni-55a07b110/?originalSubdomain=ir">
+                <svg class="h-8 w-8 text-blue-500"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />  <rect x="2" y="9" width="4" height="12" />  <circle cx="4" cy="4" r="2" /></svg>
+            </a>
+
+            <a href="https://instagram.com/ahmadreza_sameni?igshid=NTc4MTIwNjQ2YQ==">
+                <svg class="h-8 w-8 text-yellow-500"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <rect x="4" y="4" width="16" height="16" rx="4" />  <circle cx="12" cy="12" r="3" />  <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" /></svg>
+            </a>
+
+            <a href="https://wa.me/989121817267">
+                <svg class="h-8 w-8 text-green-500"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />  <path d="M15 7a2 2 0 0 1 2 2" />  <path d="M15 3a6 6 0 0 1 6 6" /></svg>
+            </a>
+
+            <a href="https://t.me/Ahmadreza_Sameni">
+                <svg class="h-8 w-8 text-blue-500"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4" /></svg>
+            </a>
+        </div>
 </section>
